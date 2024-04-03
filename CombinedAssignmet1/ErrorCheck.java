@@ -13,7 +13,7 @@ public class ErrorCheck {
 
 // Print the value of the outside & Inside variable again
 		System.out.println("Again, Outside the if block: " + a);
-		System.out.println("Again,Inside the if block: " + b);
+		System.out.println("Again,Inside the if block: " + a);
 		/*
 		 * The above line causes a compiler error because the variable insideVariable is
 		 * out of scope here.
