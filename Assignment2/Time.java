@@ -11,13 +11,13 @@ public class Time {
         int Seconds = s.nextInt();
 
         int hours = Seconds / 3600;
-        int remainingSeconds = Seconds % 3600;
-        int minutes = remainingSeconds / 60;
-        int seconds = remainingSeconds % 60;
+        int remainSeconds = Seconds % 3600;
+        int minutes = remainSeconds / 60;
+        int second = remainSeconds % 60;
 
     
-        System.out.printf("Time in HH:mm:ss :" +hours +":"+ minutes+":"+ seconds);
+        System.out.printf("Time in HH:mm:ss :" +hours +":"+ minutes+":"+ second);
 
- 
+ s.close();
     }
 }

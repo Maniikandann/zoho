@@ -1,4 +1,4 @@
-package CombinedAssignmet1;
+package combinedassignment1;
 
 public class ErrorCheck {
 	public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class ErrorCheck {
 
 // Print the value of the outside & Inside variable again
 		System.out.println("Again, Outside the if block: " + a);
-		System.out.println("Again,Inside the if block: " + a);
+	// Error clear System.out.println("Again,Inside the if block: " + b);
 		/*
 		 * The above line causes a compiler error because the variable insideVariable is
 		 * out of scope here.

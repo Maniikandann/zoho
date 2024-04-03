@@ -12,6 +12,6 @@ public class Evensum {
             sum += num;
         
              }
-		System.out.println("Sum of even numbers in the array: " + sum);
+				System.out.println("Sum of even numbers in the array: " + sum);
 			}
 		}
